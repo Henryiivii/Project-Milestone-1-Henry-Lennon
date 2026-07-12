@@ -1,4 +1,3 @@
-
 function gradeQuiz() {
 
 let score = 0;
