@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quiz</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>GitHub Copilot Quiz</h1>
+
+<p>Test your knowledge after reading this website.</p>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="copilot.html">GitHub Copilot</a></li>
+<li><a href="benefits.html">Benefits</a></li>
+<li><a href="challenges.html">Challenges</a></li>
+<li><a href="concepts.html">Key Concepts</a></li>
+<li><a href="references.html">References</a></li>
+<li><a href="quiz.html">Quiz</a></li>
+<li><a href="about.html">About</a></li>
+
+</ul>
+
+</nav>
+
+<main>
+
+<form id="quizForm">
+
+<section>
+
+<h2>Question 1 (Fill in the Blank)</h2>
+
+<p>What AI coding assistant is developed by GitHub?</p>
+
+<input type="text" id="q1">
+
+</section>
+
+<section>
+
+<h2>Question 2 (Multiple Choice)</h2>
+
+<p>Who developed GitHub Copilot with GitHub?</p>
+
+<label><input type="radio" name="q2" value="a"> Google</label><br>
+
+<label><input type="radio" name="q2" value="b"> OpenAI</label><br>
+
+<label><input type="radio" name="q2" value="c"> Apple</label>
+
+</section>
+
+<section>
+
+<h2>Question 3 (Multiple Choice)</h2>
+
+<p>GitHub Copilot is mainly a...</p>
+
+<label><input type="radio" name="q3" value="a"> AI coding assistant</label><br>
+
+<label><input type="radio" name="q3" value="b"> Web browser</label><br>
+
+<label><input type="radio" name="q3" value="c"> Database</label>
+
+</section>
+
+<section>
+
+<h2>Question 4 (Multiple Choice)</h2>
+
+<p>What should developers do before using AI-generated code?</p>
+
+<label><input type="radio" name="q4" value="a"> Publish immediately</label><br>
+
+<label><input type="radio" name="q4" value="b"> Ignore errors</label><br>
+
+<label><input type="radio" name="q4" value="c"> Review and test the code</label>
+
+</section>
+
+<section>
+
+<h2>Question 5 (Select All That Apply)</h2>
+
+<p>Which languages can GitHub Copilot help with?</p>
+
+<label><input type="checkbox" id="c1"> HTML</label><br>
+
+<label><input type="checkbox" id="c2"> CSS</label><br>
+
+<label><input type="checkbox" id="c3"> Microsoft Word</label><br>
+
+<label><input type="checkbox" id="c4"> JavaScript</label>
+
+</section>
+
+<section>
+
+<input type="button" value="Submit Quiz" onclick="gradeQuiz()">
+
+<input type="button" value="Reset Quiz" onclick="resetQuiz()">
+
+</section>
+
+</form>
+
+<div id="results"></div>
+
+</main>
+
+<footer>
+
+<p>
+
+This website was created for the IT3203 Web Development course.
+
+</p>
+
+<p>
+
+<a href="https://ksuweb.github.io/IT3203/">
+
+https://ksuweb.github.io/IT3203/
+
+</a>
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
