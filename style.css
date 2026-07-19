@@ -204,5 +204,53 @@ nav ul{
 nav a{
     text-align:center;
 }
+    /* Tablet */
+@media (max-width: 900px) {
+
+    #hero{
+        flex-direction:column;
+    }
+
+    nav ul{
+        flex-direction:column;
+    }
+
+    nav a{
+        text-align:center;
+    }
+
+}
+
+/* Mobile Phones */
+@media (max-width:600px){
+
+    header{
+        padding:30px 15px;
+    }
+
+    header h1{
+        font-size:28px;
+    }
+
+    .subtitle{
+        font-size:16px;
+    }
+
+    section{
+        padding:20px;
+    }
+
+    table{
+        font-size:14px;
+    }
+
+    input,
+    button,
+    select{
+        width:100%;
+        margin-top:10px;
+    }
+
+}
 
 }
